@@ -8,11 +8,29 @@
 	<title>Netflix</title>
 </head>
 <body>
-	<header>
-		
+	<header id=logo>
+		<figure>
+			<img src="/img/logo.svg" alt="Logo">
+			<figcaption class="hidden">Netflix</figcaption>
+		</figure>
 	</header>
 	<main>
-		
+		<section class="form">
+			<h1 class="form__title">Entrar</h1>
+			<form action="">
+				<div class="form__username">
+					<label for="name" class="hidden">Email ou número de telefone</label>
+					<input type="text" class="form__input" placeholder="Email ou número de telefone" required>
+				</div>
+				<div class="form__password">
+					<label for="password" class="hidden">Senha</label>
+					<input type="text" class="form__input" placeholder="Senha" required>
+				</div>
+				<div>
+					<input type="submit" class="form__submit" value="Entrar">
+				</div>
+			</form>
+		</section>
 	</main>
 	<footer>
 		
