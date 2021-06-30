@@ -54,7 +54,7 @@ font-family: 'Source Sans Pro', sans-serif;
 
 /* BODY */
 body{
-	background-image: url('/img/background-image.jpg');
+	background-image: url('../img/background-image.jpg');
     background-color: var(--background-body);
     background-blend-mode: multiply;
     background-size: cover;
